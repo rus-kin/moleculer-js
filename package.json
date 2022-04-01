@@ -24,13 +24,21 @@
   },
   "dependencies": {
     "@moleculer/lab": "^0.6.2",
+    "form-data": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
     "moleculer": "^0.14.16",
-    "moleculer-db": "^0.8.15",
+    "moleculer-db": "^0.8.17",
     "moleculer-db-adapter-mongo": "^0.4.13",
+    "moleculer-db-adapter-sequelize": "^0.2.13",
     "moleculer-http-client": "^0.4.2",
     "moleculer-web": "^0.10.2",
     "nats": "^2.2.0",
-    "node-fetch": "^3.2.3"
+    "node-fetch": "^3.2.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.17.0",
+    "serve-static": "^1.15.0"
   },
   "engines": {
     "node": ">= 12.x.x"
